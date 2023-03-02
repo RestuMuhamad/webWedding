@@ -76,13 +76,6 @@ const btnOffer = offer.querySelectorAll(".box-btn .btn");
 const boxImgOffer = offer.querySelectorAll(".box-img");
 const boxSlideOffer = offer.querySelectorAll(".box-img-slide");
 
-// Buat fungsi untuk memperbesar gambar hero ketika discroll
-const funcZoom = (el, winScroll) => {
-  (winScroll >= 50) ?
-    el.style.animationName = "zoomBgImg":
-    el.style.backgroundSize = "cover";
-}
-
 // Fungsi slide
 const funcSlider = (boxSlide) => {
   const boxSlider = boxSlide.querySelector(".box-slider");
@@ -99,7 +92,7 @@ const funcSlider = (boxSlide) => {
     e.preventDefault();
     boxSlider.classList.remove("active");
   });
-  
+
   // Ubah ukuran gambar ketika cursor digeser
   boxSlider.addEventListener("mousemove", (e) => {
     if (e.target.id == "box-slider")  {
@@ -153,7 +146,4 @@ btnOffer.forEach(btn => {  // Untuk cek tombol yang ditekan
 window.addEventListener("scroll", (e) => {
   let winScroll = this.scrollY;
   scrollHeader(winScroll);
-  imgHero.forEach(img => {
-    funcZoom(img, winScroll);
-  });
 });

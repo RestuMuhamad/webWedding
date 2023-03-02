@@ -285,7 +285,7 @@ header .box-link .link {
 }
 
 .offer .title {
-  grid-area: title;
+  grid-area: title; 
 }
 
 .offer .box-img {
