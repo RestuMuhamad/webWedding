@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Wedding</title>
+
+  <!-- Link sendiri -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/font.css">
+  <link rel="stylesheet" href="assets/css/reponsive.css">
+
+  <!-- Link fontawesome -->
+  <script src="https://kit.fontawesome.com/da5ec29a93.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Mulai header -->
+  <header>
+    <div class="logo">
+      <!-- <img src="" alt="logo"> -->
+    </div>
+    <div class="box-link">
+      <a href="#" class="link">Home</a>
+      <a href="#" class="link">About</a>
+      <a href="#gallery" class="link">Gallery</a>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <!-- Mulai sidebar -->
+    <section class="sidebar">
+      <i class="fa-solid fa-xmark close"></i>
+      <div class="boxLinkSide">
+        <div class="boxLink">
+          <a href="#">About</a>
+        </div>
+        <div class="boxLink">
+          <a href="#">Gallery</a>
+        </div>
+        <div class="boxLink">
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir sidebar -->
+  </header>
+  <!-- Akhir Header -->
+
+  <!-- Mulai Hero -->
+  <section class="hero">
+    <!-- <img src="assets/img/hero1.jpg" alt="Hero" loading="eager">
+    <img src="assets/img/hero2.jpg" alt="Hero" loading="lazy">
+    <img src="assets/img/hero3.jpg" alt="Hero" loading="lazy"> -->
+    <div class="img-hero img-hero-1"></div>
+    <div class="img-hero img-hero-2"></div>
+    <div class="img-hero img-hero-3"></div>
+    <div class="bars">
+      <div class="bullet"></div>
+      <div class="bullet"></div>
+      <div class="bullet"></div>
+    </div>
+  </section>
+  <!-- Akhir Hero -->
+
+  <!-- Mulai Offer -->
+  <section class="offer">
+    <h1 class="title">We Offer</h1>
+    <div class="box-img kanan">
+      <div class="box-tag-line">
+        <h2 class="tag-line">Panggung <span>Pengantin</span></h2>
+        <div class="highlight"></div>
+      </div>
+    </div>
+
+    <div class="box-img-slide kanan">
+      <h2 class="tag-line">Make Up Pengantin Pria</h2>
+      <div class="img-slide">
+        <img src="assets/img/slide1.jpg" alt="img slide" class="slide slide-1" loading="lazy">
+        <img src="assets/img/slide2.jpg" alt="img slide" class="slide slide-2" loading="lazy">
+        <div class="box-slider" id="box-slider">
+          <div class="slider" id="slider">
+            <div class="box-btn-slider" id="box-btn-slider">
+              <i class="fa-solid fa-arrows-left-right" id="icon-slider"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-img-slide kiri">
+      <h2 class="tag-line">Make Up Pengantin Wanita</h2>
+      <div class="img-slide">
+        <img src="assets/img/slide3.jpg" alt="img slide" class="slide slide-1" loading="lazy">
+        <img src="assets/img/slide4.jpg" alt="img slide" class="slide slide-2" loading="lazy">
+        <div class="box-slider" id="box-slider">
+          <div class="slider" id="slider">
+            <div class="box-btn-slider" id="box-btn-slider">
+              <i class="fa-solid fa-arrows-left-right" id="icon-slider"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-img kiri">
+      <div class="box-tag-line">
+        <h2 class="tag-line">Foto <span>Pernikahan</span></h2>
+        <div class="highlight"></div>
+      </div>
+    </div>
+    <div class="box-btn">
+      <button class="btn" id="left"><i class="fa-solid fa-caret-left"></i></button>
+      <button class="btn" id="right"><i class="fa-solid fa-caret-right"></i></button>
+    </div>
+  </section>
+  <!-- Akhir Offer -->
+
+  <!-- Mulai Gallery -->
+  <section class="gallery" id="gallery">
+    <h1 class="title">Gallery</h1>
+    <select name="section-gallery" id="section-gallery">
+      <option value="pria">Pengantin Pria</option>
+      <option value="wanita">Pengantin Wanita</option>
+      <option value="panggung">Panggung</option>
+    </select>
+    <div class="main-gallery">
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+      <div class="img-gallery"></div>
+    </div>
+    <div class="close-gallery">
+      <a href="#" class="link">Next</a>
+      <i class="fa-solid fa-caret-down"></i>
+    </div>
+  </section>
+  <!-- Akhir Gallery -->
+
+  <!-- Mulai Footer -->
+  <footer>
+    <div class="maps"></div>
+    <div class="main-footer">
+      <div class="box-link">
+        <h3 class="title">Links</h3>
+        <a href="#" class="link">Home</a>
+        <a href="#" class="link">About</a>
+        <a href="#gallery" class="link">Gallery</a>
+      </div>
+      <div class="box-contact">
+        <h3 class="title">Contacts</h3>
+        <div class="box-sosmed">
+          <i class="fa-brands fa-instagram"></i>
+          <a href="#" class="link">@rias.rossa</a>
+        </div>
+        <div class="box-sosmed">
+          <i class="fa-brands fa-tiktok"></i>
+          <a href="#" class="link">@rias.rossa</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Create With <i class="fa-solid fa-heart"></i> By Restu Muhamad</p>
+    </div>
+  </footer>
+  <!-- Akhir footer -->
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
